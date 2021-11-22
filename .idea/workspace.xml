@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b75bed4a-98d9-44ed-b606-19e4031af699" name="Default Changelist" comment="" />
+    <list default="true" id="b75bed4a-98d9-44ed-b606-19e4031af699" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jpa-day1/src/main/java/com/zcf/domain/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-day1/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-day1/src/test/java/com/zcf/test/JpaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\IdeaProject\MyJPA\.idea" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -19,7 +38,9 @@
     </option>
   </component>
   <component name="ProjectId" id="21HKGzp8CpC2wBeNAaLiGKDsCv9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,6 +52,29 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="JpaTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-day1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zcf.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zcf.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zcf.test.JpaTest" />
+      <option name="METHOD_NAME" value="testSave" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JpaTest.testSave" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -54,14 +98,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637592480610</updated>
-      <workItem from="1637592485797" duration="1519000" />
+      <workItem from="1637592485797" duration="4499000" />
     </task>
+    <task id="LOCAL-00001" summary="init project">
+      <created>1637595421350</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1637595421350</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init project" />
+    <option name="LAST_COMMIT_MESSAGE" value="init project" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="588" y="213" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1637595964176">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="588" y="213" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1637595964176" />
+    <state x="1219" y="341" key="#com.intellij.ide.util.MemberChooser" timestamp="1637596986476">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1219" y="341" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1637596986476" />
+    <state x="572" y="114" key="CommitChangelistDialog2" timestamp="1637595420368">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="572" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1637595420368" />
     <state x="740" y="264" key="FileChooserDialogImpl" timestamp="1637595247155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -70,10 +138,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="785" y="434" width="373" height="172" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1637595225705" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1637595375215">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1637598274070">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1637595375215" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1637598274070" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1637598274070">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1637598274070" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1637598274070">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1637598274070" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1637598274070">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1637598274070" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1637598273981">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1637598273981" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1637598273981">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1637598273981" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1637598273981">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1637598273981" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1637598273981">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1637598273981" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1637598386900">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1637598386900" />
     <state x="652" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1637592534551">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -82,5 +182,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="224" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1637592611277" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1637596373658">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1637596373658" />
   </component>
 </project>
