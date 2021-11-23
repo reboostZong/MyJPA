@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b75bed4a-98d9-44ed-b606-19e4031af699" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jpa-day1/src/main/java/com/zcf/domain/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-day1/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-day1/src/test/java/com/zcf/test/JpaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-day1/jpa-day1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-day1/src/main/java/com/zcf/util/JpaUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-day1/src/test/java/com/zcf/test/JpqlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-day2/jpa-day2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-day2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-day2/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-day1/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-day1/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-day1/src/test/java/com/zcf/test/JpaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-day1/src/test/java/com/zcf/test/JpaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -36,6 +44,11 @@
         <option name="userSettingsFile" value="D:\apache-maven-3.3.9\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="21HKGzp8CpC2wBeNAaLiGKDsCv9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -47,14 +60,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager">
-    <configuration name="JpaTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.JpqlTest.testWhere">
+    <configuration name="JpqlTest.testCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-day1" />
       <extension name="coverage">
         <pattern>
@@ -63,8 +78,72 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zcf.test" />
-      <option name="MAIN_CLASS_NAME" value="com.zcf.test.JpaTest" />
-      <option name="METHOD_NAME" value="testSave" />
+      <option name="MAIN_CLASS_NAME" value="com.zcf.test.JpqlTest" />
+      <option name="METHOD_NAME" value="testCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpqlTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-day1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zcf.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zcf.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zcf.test.JpqlTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpqlTest.testOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-day1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zcf.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zcf.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zcf.test.JpqlTest" />
+      <option name="METHOD_NAME" value="testOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpqlTest.testPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-day1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zcf.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zcf.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zcf.test.JpqlTest" />
+      <option name="METHOD_NAME" value="testPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpqlTest.testWhere" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-day1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zcf.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zcf.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zcf.test.JpqlTest" />
+      <option name="METHOD_NAME" value="testWhere" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,7 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JpaTest.testSave" />
+        <item itemvalue="JUnit.JpqlTest.testWhere" />
+        <item itemvalue="JUnit.JpqlTest.testPage" />
+        <item itemvalue="JUnit.JpqlTest.testCount" />
+        <item itemvalue="JUnit.JpqlTest.testOrder" />
+        <item itemvalue="JUnit.JpqlTest.testFindAll" />
       </list>
     </recent_temporary>
   </component>
@@ -98,7 +181,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637592480610</updated>
-      <workItem from="1637592485797" duration="4499000" />
+      <workItem from="1637592485797" duration="4683000" />
+      <workItem from="1637635942220" duration="2739000" />
+      <workItem from="1637671554444" duration="5960000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1637595421350</created>
@@ -107,15 +192,24 @@
       <option name="project" value="LOCAL" />
       <updated>1637595421350</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test save">
+      <created>1637598425176</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1637598425176</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init project" />
-    <option name="LAST_COMMIT_MESSAGE" value="init project" />
+    <MESSAGE value="test save" />
+    <option name="LAST_COMMIT_MESSAGE" value="test save" />
   </component>
   <component name="WindowStateProjectService">
     <state x="588" y="213" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1637595964176">
@@ -126,10 +220,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1219" y="341" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1637596986476" />
-    <state x="572" y="114" key="CommitChangelistDialog2" timestamp="1637595420368">
+    <state x="572" y="114" key="CommitChangelistDialog2" timestamp="1637681465307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="572" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1637595420368" />
+    <state x="572" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1637681465307" />
     <state x="740" y="264" key="FileChooserDialogImpl" timestamp="1637595247155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -138,53 +232,69 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="785" y="434" width="373" height="172" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1637595225705" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1637598274070">
+    <state width="1877" height="416" key="GridCell.Tab.0.bottom" timestamp="1637679602482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1637598274070" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1637598274070">
+    <state width="1877" height="416" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1637679602482" />
+    <state width="1877" height="416" key="GridCell.Tab.0.center" timestamp="1637679602482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1637598274070" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1637598274070">
+    <state width="1877" height="416" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1637679602482" />
+    <state width="1877" height="416" key="GridCell.Tab.0.left" timestamp="1637679602482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1637598274070" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1637598274070">
+    <state width="1877" height="416" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1637679602482" />
+    <state width="1877" height="416" key="GridCell.Tab.0.right" timestamp="1637679602482">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1637598274070" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1637598273981">
+    <state width="1877" height="416" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1637679602482" />
+    <state width="1877" height="416" key="GridCell.Tab.1.bottom" timestamp="1637679602483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1637598273981" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1637598273981">
+    <state width="1877" height="416" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1637679602483" />
+    <state width="1877" height="416" key="GridCell.Tab.1.center" timestamp="1637679602483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1637598273981" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1637598273981">
+    <state width="1877" height="416" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1637679602483" />
+    <state width="1877" height="416" key="GridCell.Tab.1.left" timestamp="1637679602483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1637598273981" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1637598273981">
+    <state width="1877" height="416" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1637679602483" />
+    <state width="1877" height="416" key="GridCell.Tab.1.right" timestamp="1637679602483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1637598273981" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1637598386900">
+    <state width="1877" height="416" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1637679602483" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1637681474977">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1637598386900" />
-    <state x="652" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1637592534551">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1637681474977" />
+    <state x="652" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1637672001110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="652" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1637592534551" />
-    <state x="334" y="224" key="new project wizard" timestamp="1637592611277">
+    <state x="652" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1637672001110" />
+    <state x="334" y="224" key="new project wizard" timestamp="1637679623884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="224" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1637592611277" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1637596373658">
+    <state x="334" y="224" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1637679623884" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1637680273750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1637596373658" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1637680273750" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jpa-day1/src/test/java/com/zcf/test/JpaTest.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jpa-day1/src/test/java/com/zcf/test/JpaTest.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
