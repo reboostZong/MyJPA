@@ -11,6 +11,8 @@
     <modules>
         <module>jpa-day1</module>
         <module>jpa-day2</module>
+        <module>jpa-day3</module>
+        <module>jpa-day3-onetomany</module>
     </modules>
 
 
