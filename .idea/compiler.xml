@@ -10,6 +10,7 @@
         <module name="jpa-day3" />
         <module name="jpa-day2" />
         <module name="jpa-day1" />
+        <module name="jpa-day3-manytomany" />
       </profile>
     </annotationProcessing>
   </component>

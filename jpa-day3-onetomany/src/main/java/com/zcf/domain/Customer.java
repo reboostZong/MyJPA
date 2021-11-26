@@ -1,6 +1,8 @@
 package com.zcf.domain;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Table(name = "cst_customer")
@@ -27,6 +29,11 @@ public class Customer {
 
     @Column(name = "cust_address")
     private String custAddress;
+
+//    @OneToMany(targetEntity = LinkMan.class)
+//    @JoinColumn(name = "lkm_cust_id", referencedColumnName = "cust_id")
+    @OneToMany(mappedBy = "customer", cascade = CascadeType.ALL)
+    private Set<LinkMan> linkMans = new HashSet<LinkMan>();
 
     public Long getCustId() {
         return custId;
@@ -82,6 +89,14 @@ public class Customer {
 
     public void setCustAddress(String custAddress) {
         this.custAddress = custAddress;
+    }
+
+    public Set<LinkMan> getLinkMans() {
+        return linkMans;
+    }
+
+    public void setLinkMans(Set<LinkMan> linkMans) {
+        this.linkMans = linkMans;
     }
 
     @Override

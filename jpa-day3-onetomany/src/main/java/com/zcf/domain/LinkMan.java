@@ -31,6 +31,11 @@ public class LinkMan {
     @Column(name = "lkm_memo")
     private String lkmMemo;
 
+    @ManyToOne(targetEntity = Customer.class)
+    @JoinColumn(name = "lkm_cust_id", referencedColumnName = "cust_id")
+    private Customer customer;
+
+
     public Long getLkmId() {
         return lkmId;
     }
@@ -93,5 +98,13 @@ public class LinkMan {
 
     public void setLkmMemo(String lkmMemo) {
         this.lkmMemo = lkmMemo;
+    }
+
+    public Customer getCustomer() {
+        return customer;
+    }
+
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
     }
 }
