@@ -31,7 +31,7 @@ public class LinkMan {
     @Column(name = "lkm_memo")
     private String lkmMemo;
 
-    @ManyToOne(targetEntity = Customer.class)
+    @ManyToOne(targetEntity = Customer.class, fetch = FetchType.LAZY)
     @JoinColumn(name = "lkm_cust_id", referencedColumnName = "cust_id")
     private Customer customer;
 

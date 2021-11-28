@@ -19,7 +19,7 @@ public class User {
     @Column(name = "user_age")
     private Integer userAge;
 
-    @ManyToMany(targetEntity = Role.class)
+    @ManyToMany(targetEntity = Role.class, cascade = CascadeType.ALL)
     @JoinTable(name = "sys_user_role",
             joinColumns = {@JoinColumn(name = "sys_user_id", referencedColumnName = "user_id")},
             inverseJoinColumns = {@JoinColumn(name = "sys_role_id", referencedColumnName = "role_id")})

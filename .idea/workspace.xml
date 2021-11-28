@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b75bed4a-98d9-44ed-b606-19e4031af699" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-day3-manytomany/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-day3-manytomany/src/main/java/com/zcf/dao/RoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-day3-manytomany/src/main/java/com/zcf/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-day3-manytomany/src/main/java/com/zcf/domain/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-day3-manytomany/src/main/java/com/zcf/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-day3-manytomany/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-day3-manytomany/src/test/java/com/zcf/test/ManyToManyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-day3-onetomany/src/test/java/com/zcf/test/OneToManyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-day3-onetomany/src/test/java/com/zcf/test/ObjectNavigateQueryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa-day3-onetomany/src/main/java/com/zcf/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-day3-onetomany/src/main/java/com/zcf/domain/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-day3-manytomany/src/main/java/com/zcf/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-day3-manytomany/src/main/java/com/zcf/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-day3-manytomany/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-day3-manytomany/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-day3-manytomany/src/test/java/com/zcf/test/ManyToManyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-day3-manytomany/src/test/java/com/zcf/test/ManyToManyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jpa-day3-onetomany/src/main/java/com/zcf/domain/LinkMan.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-day3-onetomany/src/main/java/com/zcf/domain/LinkMan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa-day3-onetomany/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-day3-onetomany/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,8 +75,8 @@
       <recent name="D:\IdeaProject\MyJPA\jpa-day3\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ManyToManyTest.testManySave">
-    <configuration name="ManyToManyTest.testManySave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ObjectNavigateQueryTest.testLinkMan">
+    <configuration name="ManyToManyTest.testCascadeDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-day3-manytomany" />
       <extension name="coverage">
         <pattern>
@@ -95,13 +86,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zcf.test" />
       <option name="MAIN_CLASS_NAME" value="com.zcf.test.ManyToManyTest" />
-      <option name="METHOD_NAME" value="testManySave" />
+      <option name="METHOD_NAME" value="testCascadeDelete" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneToManyTest.testCascadeDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ObjectNavigateQueryTest.testFindOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa-day3-onetomany" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +101,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zcf.test" />
-      <option name="MAIN_CLASS_NAME" value="com.zcf.test.OneToManyTest" />
-      <option name="METHOD_NAME" value="testCascadeDelete" />
+      <option name="MAIN_CLASS_NAME" value="com.zcf.test.ObjectNavigateQueryTest" />
+      <option name="METHOD_NAME" value="testFindOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectNavigateQueryTest.testGetOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-day3-onetomany" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zcf.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zcf.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zcf.test.ObjectNavigateQueryTest" />
+      <option name="METHOD_NAME" value="testGetOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectNavigateQueryTest.testLinkMan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa-day3-onetomany" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zcf.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zcf.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zcf.test.ObjectNavigateQueryTest" />
+      <option name="METHOD_NAME" value="testLinkMan" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,45 +156,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneToManyTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpa-day3-onetomany" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zcf.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zcf.test" />
-      <option name="MAIN_CLASS_NAME" value="com.zcf.test.OneToManyTest" />
-      <option name="METHOD_NAME" value="testSave" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpecTest.testFindPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpa-day3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zcf.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zcf.test" />
-      <option name="MAIN_CLASS_NAME" value="com.zcf.test.SpecTest" />
-      <option name="METHOD_NAME" value="testFindPage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ManyToManyTest.testManySave" />
-        <item itemvalue="JUnit.OneToManyTest.testCascadeDelete" />
+        <item itemvalue="JUnit.ObjectNavigateQueryTest.testLinkMan" />
+        <item itemvalue="JUnit.ObjectNavigateQueryTest.testFindOne" />
+        <item itemvalue="JUnit.ObjectNavigateQueryTest.testGetOne" />
         <item itemvalue="JUnit.OneToManyTest.testCascadeSave" />
-        <item itemvalue="JUnit.OneToManyTest.testSave" />
-        <item itemvalue="JUnit.SpecTest.testFindPage" />
+        <item itemvalue="JUnit.ManyToManyTest.testCascadeDelete" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +196,8 @@
       <workItem from="1637800460496" duration="1380000" />
       <workItem from="1637841268914" duration="8608000" />
       <workItem from="1637886863337" duration="1364000" />
-      <workItem from="1637938404588" duration="2983000" />
+      <workItem from="1637938404588" duration="3636000" />
+      <workItem from="1638070463205" duration="3886000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1637595421350</created>
@@ -242,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637853245032</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="many to many">
+      <created>1637941597730</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1637941597730</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +254,8 @@
     <MESSAGE value="spring data jpa" />
     <MESSAGE value="dao and dao query" />
     <MESSAGE value="one to many" />
-    <option name="LAST_COMMIT_MESSAGE" value="one to many" />
+    <MESSAGE value="many to many" />
+    <option name="LAST_COMMIT_MESSAGE" value="many to many" />
   </component>
   <component name="WindowStateProjectService">
     <state x="588" y="213" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1637595964176">
@@ -270,10 +270,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="226" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1637761653382" />
-    <state x="572" y="114" key="CommitChangelistDialog2" timestamp="1637853241136">
+    <state x="572" y="114" key="CommitChangelistDialog2" timestamp="1637941593930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="572" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1637853241136" />
+    <state x="572" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1637941593930" />
     <state width="419" height="466" key="DebuggerActiveHint" timestamp="1637851337819">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -286,38 +286,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="785" y="434" width="373" height="172" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1637595225705" />
-    <state width="1877" height="328" key="GridCell.Tab.0.bottom" timestamp="1637941559405">
+    <state width="1877" height="328" key="GridCell.Tab.0.bottom" timestamp="1638081845546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="328" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1637941559405" />
-    <state width="1877" height="328" key="GridCell.Tab.0.center" timestamp="1637941559405">
+    <state width="1877" height="328" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1638081845546" />
+    <state width="1877" height="328" key="GridCell.Tab.0.center" timestamp="1638081845545">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="328" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1637941559405" />
-    <state width="1877" height="328" key="GridCell.Tab.0.left" timestamp="1637941559405">
+    <state width="1877" height="328" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1638081845545" />
+    <state width="1877" height="328" key="GridCell.Tab.0.left" timestamp="1638081845545">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="328" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1637941559405" />
-    <state width="1877" height="328" key="GridCell.Tab.0.right" timestamp="1637941559405">
+    <state width="1877" height="328" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1638081845545" />
+    <state width="1877" height="328" key="GridCell.Tab.0.right" timestamp="1638081845545">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="328" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1637941559405" />
-    <state width="1877" height="328" key="GridCell.Tab.1.bottom" timestamp="1637941559314">
+    <state width="1877" height="328" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1638081845545" />
+    <state width="1877" height="328" key="GridCell.Tab.1.bottom" timestamp="1638081843429">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="328" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1637941559314" />
-    <state width="1877" height="328" key="GridCell.Tab.1.center" timestamp="1637941559314">
+    <state width="1877" height="328" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1638081843429" />
+    <state width="1877" height="328" key="GridCell.Tab.1.center" timestamp="1638081843428">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="328" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1637941559314" />
-    <state width="1877" height="328" key="GridCell.Tab.1.left" timestamp="1637941559314">
+    <state width="1877" height="328" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1638081843428" />
+    <state width="1877" height="328" key="GridCell.Tab.1.left" timestamp="1638081843428">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="328" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1637941559314" />
-    <state width="1877" height="328" key="GridCell.Tab.1.right" timestamp="1637941559314">
+    <state width="1877" height="328" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1638081843428" />
+    <state width="1877" height="328" key="GridCell.Tab.1.right" timestamp="1638081843428">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="328" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1637941559314" />
+    <state width="1877" height="328" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1638081843428" />
     <state x="463" y="165" key="SettingsEditor" timestamp="1637757482679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -326,14 +326,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="681" y="261" width="567" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1637764730062" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1637853249246">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1637941606656">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1637853249246" />
-    <state x="652" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1637938585634">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1637941606656" />
+    <state x="652" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1638071306400">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="652" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1637938585634" />
+    <state x="652" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1638071306400" />
     <state x="512" y="259" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1637800986191">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -354,6 +354,21 @@
           <url>file://$PROJECT_DIR$/jpa-day3/src/test/java/com/zcf/test/SpecTest.java</url>
           <line>105</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jpa-day3-onetomany/src/test/java/com/zcf/test/ObjectNavigateQueryTest.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jpa-day3-onetomany/src/test/java/com/zcf/test/ObjectNavigateQueryTest.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jpa-day3-onetomany/src/test/java/com/zcf/test/ObjectNavigateQueryTest.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

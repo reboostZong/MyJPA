@@ -39,4 +39,31 @@ public class ManyToManyTest {
         roleDao.save(role);
     }
 
+    @Test
+    @Transactional
+    @Rollback(false)
+    public void testCascadeSave() {
+        User user = new User();
+        user.setUserName("zhangsan");
+
+        Role role = new Role();
+        role.setRoleName("admin");
+
+        user.getRoles().add(role);
+        role.getUsers().add(user);
+
+        userDao.save(user);
+
+    }
+
+    @Test
+    @Transactional
+    @Rollback(false)
+    public void testCascadeDelete() {
+        User user = userDao.findOne(1L);
+
+        userDao.delete(user);
+
+    }
+
 }
